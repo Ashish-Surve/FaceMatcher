@@ -1,4 +1,4 @@
-# FaceCatch
+# FaceMatcher
 This software recognizes people in an video or in an image. It uses MTCNN for detection/alignment of faces and FaceNet based model to reconise people. It also used SVM model to classify people. 
 
 ## Code has been moved to GitLab
@@ -10,7 +10,7 @@ this code is improvement over the project created by ArunMandal53
 
 There was no documentation and no video recognition as well as a feature to save embeddings and compare them with other images.
 
-# FaceCatch
+# FaceMatcher
 
 #  How to use this model to train and recognise people.
 
