@@ -22,7 +22,7 @@ There was no documentation and no video recognition as well as a feature to save
 4. execute train_model.py
 5. execute Face_recognition_app.py
 
-    `Note : Clone the branch with name Ashish_Surve`
+
 
 Your webcam should start in a few seconds and classify the faces by bounding boxes. 
 
@@ -40,7 +40,7 @@ What things I have tried?
 
 => FaceNet by David Sandberg-- project looks mature, although at the time of writing does not provide a library-based installation nor clean API.
 
-**FACEMATCHer**
+**FACEMATCHER**
 
 **PROS**
 
