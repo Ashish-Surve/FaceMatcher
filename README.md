@@ -1,6 +1,8 @@
 # FaceMatcher
 This software recognizes people in an video or in an image. It uses MTCNN for detection/alignment of faces and FaceNet based model to reconise people. It also used SVM model to classify people. 
 
+**Star the repository if you want me to improve this code and optimise for better results**
+
 this code is improvement over the project created by ArunMandal53
 
 [Link to source](https://github.com/arunmandal53/facematch)
