@@ -1,3 +1,17 @@
+# FaceCatch
+This software recognizes people in an video or in an image. It uses MTCNN for detection/alignment of faces and FaceNet based model to reconise people. It also used SVM model to classify people. 
+
+## Code has been moved to GitLab
+[LINK](https://gitlab.com/shunyaos/ai-batch/tree/Ashish_Surve/FaceCatch)
+
+this code is improvement over the project created by ArunMandal53
+
+[Link to source](https://github.com/arunmandal53/facematch)
+
+There was no documentation and no video recognition as well as a feature to save embeddings and compare them with other images.
+
+# FaceCatch
+
 #  How to use this model to train and recognise people.
 
 1. Clone this repository.
@@ -39,16 +53,16 @@ It can detect similar faces even if the images compared have 10+ years of differ
 ***I have intentionally chosen pictures which are a little difficult to recognize but the result is astonishing***
 
 **IMAGE 1**
-![Pic1](/uploads/e553a9d81496573ead922ffbe67fc6bc/Pic1.png)
+![Pic1](https://gitlab.com/shunyaos/ai-batch/uploads/e553a9d81496573ead922ffbe67fc6bc/Pic1.png)
 
 **IMAGE 2**
-![pic2](/uploads/2a75b2352922af89578030680c31807a/pic2.png)
+![pic2](https://gitlab.com/shunyaos/ai-batch/uploads/2a75b2352922af89578030680c31807a/pic2.png)
 
 **OUTPUT**
 
 you can clearly see that in one image I am wearing an accessory and yet the model is able to guess that both are same person.
 
-![pic3](/uploads/ba9f3559fd86aa2cbce3c87b26370dc7/pic3.png)
+![pic3](https://gitlab.com/shunyaos/ai-batch/uploads/ba9f3559fd86aa2cbce3c87b26370dc7/pic3.png)
 
 
 2. This model provides good implementation of MTCNN because of which the detection is accurate.
@@ -84,7 +98,7 @@ I again downgraded numpy to numpy-1.16.1
 *  ~~Implement video based face recognition.~~
 *  ~~add GitLab link for code.~~
 *  Implement a DNN based classifier to classify.
-*  Compare SVM with DNN. Check Speeds.
+*  Compare SVN with DNN. Check Speeds.
 *  ~~Basic documentation for the code.~~
 
 # EDIT 1
@@ -98,4 +112,6 @@ Some Working Sample.
 
 ** Since I usually get confused between these two, I tried to recognize them using this model.
   
-![twvsrt](/uploads/83bfd86c6b4730b4788fdf50bb4dedfa/twvsrt.png)
+![twvsrt](https://gitlab.com/shunyaos/ai-batch/uploads/83bfd86c6b4730b4788fdf50bb4dedfa/twvsrt.png)
+
+
