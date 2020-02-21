@@ -1,9 +1,6 @@
 # FaceMatcher
 This software recognizes people in an video or in an image. It uses MTCNN for detection/alignment of faces and FaceNet based model to reconise people. It also used SVM model to classify people. 
 
-## Code has been moved to GitLab
-[LINK](https://gitlab.com/shunyaos/ai-batch/tree/Ashish_Surve/FaceCatch)
-
 this code is improvement over the project created by ArunMandal53
 
 [Link to source](https://github.com/arunmandal53/facematch)
@@ -43,7 +40,7 @@ What things I have tried?
 
 => FaceNet by David Sandberg-- project looks mature, although at the time of writing does not provide a library-based installation nor clean API.
 
-**FACEMATCH**
+**FACEMATCHer**
 
 **PROS**
 
@@ -52,15 +49,10 @@ It can detect similar faces even if the images compared have 10+ years of differ
 
 ***I have intentionally chosen pictures which are a little difficult to recognize but the result is astonishing***
 
-**IMAGE 1**
-![Pic1](https://gitlab.com/shunyaos/ai-batch/uploads/e553a9d81496573ead922ffbe67fc6bc/Pic1.png)
-
 **IMAGE 2**
 ![pic2](https://gitlab.com/shunyaos/ai-batch/uploads/2a75b2352922af89578030680c31807a/pic2.png)
 
 **OUTPUT**
-
-you can clearly see that in one image I am wearing an accessory and yet the model is able to guess that both are same person.
 
 ![pic3](https://gitlab.com/shunyaos/ai-batch/uploads/ba9f3559fd86aa2cbce3c87b26370dc7/pic3.png)
 
@@ -113,5 +105,6 @@ Some Working Sample.
 ** Since I usually get confused between these two, I tried to recognize them using this model.
   
 ![twvsrt](https://gitlab.com/shunyaos/ai-batch/uploads/83bfd86c6b4730b4788fdf50bb4dedfa/twvsrt.png)
+
 
 
